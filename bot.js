@@ -368,16 +368,16 @@ client25.on("error", function(err) {
  return console.log(err);
 });  
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var prefix1 = "1";
-var prefix2 = "2";
-var prefix3 = "3";
-var prefix4 = "4";
-var prefix5 = "5";
-var prefix6 = "6";
-var prefix7 = "7";
-var prefix8 = "8";
-var prefix9 = "9";
-var prefix10 = "10";
+var prefix1 = "*";
+var prefix2 = "*";
+var prefix3 = "*";
+var prefix4 = "*";
+var prefix5 = "*";
+var prefix6 = "*";
+var prefix7 = "*";
+var prefix8 = "*";
+var prefix9 = "*";
+var prefix10 = "*";
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
 client2.login(process.env.BOT2_TOKEN);
